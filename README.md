@@ -5,9 +5,7 @@ Facebook-AlbumApp
 <br><br>Try it! It's free.</p>
 <hr>
 <h4>Features</h4>
- Overwrite directory-level configuration using .htaccess. Every Request first redirect to dispatch.php and as per request particular class’s method is called. (Used Custom Framework)  
 
-<h4>.htaccess</h4>
 <pre>
   1.  Facebook Login
   2.  Fully responsive website
@@ -18,6 +16,10 @@ Facebook-AlbumApp
   7.  Download Cache (Same Download Album request repeatedly uses Zip directly from cache,No need to processing again.)
 </pre>
 
+
+ Overwrite directory-level configuration using .htaccess. Every Request first redirect to dispatch.php and as per request particular class’s method is called. (Used Custom Framework)  
+
+<h4>.htaccess</h4>
 <pre>
 <IfModule mod_rewrite.c>
    RewriteEngine On
@@ -51,7 +53,7 @@ Facebook-AlbumApp
 <pre>
 	1. facebook-php-sdk-master
 	2. foundation-4.2.2
-  3. ZendGdata-1.12.3 
+	3. ZendGdata-1.12.3 
 	4. Ajaxloder
 	5. touchSwipe
 	6. fancybox	
